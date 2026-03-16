@@ -51,7 +51,12 @@ SELECT * FROM chai_store where price < 25
 
 SELECT * FROM chai_store ORDER BY price ASC
 
-UPDATE chai_store SET price = 45.00, available = TRUE WHERE chai_name = 'Iced Chai'
+UPDATE chai_store
+SET
+    price = 45.00,
+    available = TRUE
+WHERE
+    chai_name = 'Iced Chai'
 
 SELECT * FROM chai_store
 
